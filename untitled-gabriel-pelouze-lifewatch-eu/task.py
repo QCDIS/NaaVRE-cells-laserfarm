@@ -6,7 +6,7 @@ arg_parser = argparse.ArgumentParser()
 arg_parser.add_argument('--id', action='store', type=str, required=True, dest='id')
 
 
-arg_parser.add_argument('--a', action='store', type=int, required=True, dest='a')
+arg_parser.add_argument('--z', action='store', type=int, required=True, dest='z')
 
 
 args = arg_parser.parse_args()
@@ -14,9 +14,9 @@ print(args)
 
 id = args.id
 
-a = args.a
+z = args.z
 
 
 
-print(a)
+print(z)
 
